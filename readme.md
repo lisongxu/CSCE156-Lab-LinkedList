@@ -58,7 +58,7 @@ Specifically, implement the following methods
   public int lastIndexOf(E e) 
  ```
  
-4. Method `remvoeLast` removes the last node and returns the object that is contained in the removed node. 
+4. Method `removeLast` removes the last node and returns the object that is contained in the removed node. 
 
 ```java
   public E removeLast() 
