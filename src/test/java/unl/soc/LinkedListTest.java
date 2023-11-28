@@ -83,9 +83,9 @@ public class LinkedListTest {
 	void lastIndexOfTest01() {
 		MyLinkedList<Integer> list = new MyLinkedList<>();
 		list.add(11);
-		list.add(12);
 		list.add(11);
-		int expected = 2;
+		list.add(12);
+		int expected = 1;
 		int result = list.lastIndexOf(11);
 		Assertions.assertEquals(expected, result);
 	}
