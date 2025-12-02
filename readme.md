@@ -52,7 +52,7 @@ Specifically, implement the following methods
   public int lastIndexOf(E e) 
  ```
  
-4. The `removeAll` method removes all the elements in `list2` from the current list. If an element `e` in `list2` appears multiple times in the current list, only the first occurrence of `e` will be removed.
+4. The `removeAll` method removes all the elements in `list2` from the current list. If an element `e` in `list2` appears multiple times in the current list, all occurrences of `e` will be removed.
 
 ```java
   public void removeAll(MyLinkedList<E> list2) 
@@ -66,7 +66,7 @@ contains(11) = true
 indexOf(11) = 1
 lastIndexOf(11) = 3
 list2 = [1, 10, 11, 13]
-after removeAll(list2): [12, 11]
+after removeAll(list2): [12]
 ```
 
 
