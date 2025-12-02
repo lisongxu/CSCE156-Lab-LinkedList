@@ -75,7 +75,7 @@ public class MyLinkedList<E>  {
 	  }
 
 	  /** Return true if this list contains the element e */
-	  public boolean contains(Object e) {
+	  public boolean contains(E e) {
 		// to do in the lab  
 	    return false;
 	  }
@@ -121,7 +121,7 @@ public class MyLinkedList<E>  {
 
 	  /** Return the index of the first matching element in 
 	   *  this list. Return -1 if no match. */
-	  public int indexOf(Object e) {
+	  public int indexOf(E e) {
 		// to do in the lab  
 	    return -1;
 	  }
@@ -202,7 +202,7 @@ public class MyLinkedList<E>  {
 	  /** Remove the first occurrence of the element e 
 	   *  from this list. Shift any subsequent elements to the left.
 	   *  Return true if the element is removed. */
-	  public boolean remove(Object e) {
+	  public boolean remove(E e) {
 		Node<E> current = head;
 		Node<E> previous = null;
 
@@ -259,7 +259,7 @@ public class MyLinkedList<E>  {
 	        result.append(", "); // Separate two elements with a comma
 	      current = current.next;
 	    }
-	    result.append("]");      // Insert the closing ] in the string
+	    result.append("]");      // Append the closing ]
 
 	    return result.toString();
 	  }
