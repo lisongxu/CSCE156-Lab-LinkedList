@@ -3,7 +3,7 @@
 
 An introduction to the linked list.
 
-This lab is part of Computer Science II (CSCE 156) for Fall 2024 
+This lab is part of Computer Science II (CSCE 156) for Fall 2025 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -16,7 +16,7 @@ After completing this lab, you should be able to:
 
 ### Peer Programming Pair-Up
 
-At the beginning of each lab, you may find a team member by yourself or be randomly paired up with another student by a lab instructor.  One of you will be designated the *driver* and the other the *navigator*. Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. If you prefer to work on this lab by yourself, that is fine too.
+At the beginning of each lab, you may find a team member by yourself.  One of you will be designated the *driver* and the other the *navigator*. Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. If you prefer to work on this lab alone, that is fine too.
 
 ***Note that each student must submit the code to GradeScope for grading.***
 
@@ -35,14 +35,14 @@ Specifically, implement the following methods
 1. The `contains` method returns true if the list contains element `e` 
 
 ```java
-  public boolean contains(Object e) 
+  public boolean contains(E e) 
   ```
   
 2. The `indexOf` method returns the index of the first matching element in 
   the list. Returns -1 if no match. 
 
 ```java  
-  public int indexOf(Object e) 
+  public int indexOf(E e) 
  ```
  
 3. The `lastIndexOf` method returns the index of the last matching element in 
@@ -86,7 +86,7 @@ failed test cases).
 
 To submit your lab, do the following. 
 
-1. Go to the lab on Canvas, and click the "Load Lab in a new window" button which opens a GradeScope window for the lab.   
+1. Go to the lab on Canvas, and click the "Load Lab in a new window" button, which opens a GradeScope window for the lab.   
 
 2. Drag and Drop your modified ***`MyLinkedList.java`***, and then click the "Upload" button. ***Do not upload any other files.***
 
